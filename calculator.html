@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>calculator</title>
+<link rel="stylesheet"href="calculator.css">    
+</head>
+<body>
+
+    <div class="calc">
+        <input id="display" type="text" readonly>
+        <div class="btns">
+            <button class="ac" onclick="clearAll()">AC</button>
+            <button type="button" onclick="Press('%')">%</button>
+            <button type="button" onclick="Press('/')">/</button>
+            <button type="button" onclick="Press('*')">*</button>
+
+            <button type="button" onclick="Press('7')">7</button>
+            <button type="button" onclick="Press('8')">8</button>
+            <button type="button" onclick="Press('9')">9</button>
+            <button type="button" onclick="Press('-')">-</button>
+
+            <button type="button" onclick="Press('4')">4</button>
+            <button type="button" onclick="Press('5')">5</button>
+            <button type="button" onclick="Press('6')">6</button>
+            <button type="button" onclick="Press('+')">+</button>
+
+            <button type="button" onclick="Press('1')">1</button>
+            <button type="button" onclick="Press('2')">2</button>
+            <button type="button" onclick="Press('3')">3</button>
+            <button type="button" onclick="Press('.')">.</button>
+            <button type="button" class="zero" onclick="Press('0')">0</button>
+            <button type="button" class="eq" onclick="Press('=')">=</button>
+             <button type="button" onclick="backspace('')">del</button>
+            </div>
+            </div>
+            <script src="calculator.js"></script>
+</body>
+
+</html>
